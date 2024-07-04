@@ -1,0 +1,1 @@
+Docker file is made in a structure to have a fluid layer caching , commands like npm intall can be stored from the cash that's why there's a copy of the package.json file first then the RUN npm install then COPY . .
